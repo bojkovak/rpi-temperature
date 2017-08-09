@@ -1,6 +1,6 @@
 {
   "name": "rpi-temperature",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Node module for retrieving temperature data from the DS18B20 temperature sensor on Raspberry Pi.",
   "main": "rpi-temperature.js",
   "scripts": {
