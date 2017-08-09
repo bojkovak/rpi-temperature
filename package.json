@@ -1,0 +1,27 @@
+{
+  "name": "rpi-temperature",
+  "version": "1.0.0",
+  "description": "Node module for retrieving temperature data from the DS18B20 temperature sensor on Raspberry Pi.",
+  "main": "rpi-temperature.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bojkovak/rpi-temperature.git"
+  },
+  "keywords": [
+    "Raspberry",
+    "Pi",
+    "temperature",
+    "sensor",
+    "GPIO",
+    "DS18B20"
+  ],
+  "author": "bojkovak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bojkovak/rpi-temperature/issues"
+  },
+  "homepage": "https://github.com/bojkovak/rpi-temperature#readme"
+}
