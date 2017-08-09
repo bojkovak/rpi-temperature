@@ -21,5 +21,5 @@ Print out the temperature value:
 
 ```bash
 const tempValue = require('rpi-temperature')
-console.log('Temperature: %s C', tempValue.printTemperature())
+console.log('Temperature: %s C', tempValue.getTemperature())
 ```

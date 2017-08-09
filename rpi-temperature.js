@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-exports.printTemperature = function (){
+exports.getTemperature = function (){
     var srcpath = '/sys/bus/w1/devices'
     var directories = fs.readdirSync(srcpath).filter(file => fs.lstatSync(path.join(srcpath, file)).isSymbolicLink())
 
